@@ -1,0 +1,21 @@
+#QUASH (quite a shell)
+##by Rory Reidy
+limited version of a bash shell
+tested on ubuntu
+
+##COMPILING QUASH
+make
+make test -- runs ./quash with no arguments
+make clean -- removes quash executable
+RUNNING QUASH
+./quash -- basic shell, input commands
+./quash > [filename] -- opens a shell, all output redirected to file
+./quash < [filename] -- runs commands stored in filename, displays output on screen
+
+BASIC COMMANDS
+printenv [HOME|PATH] -- prints HOME or PATH environment var
+set [HOME|PATH] [filepath] -- changed HOME or PATH to specified filepath
+pwd -- prints current directory
+cd -- redirects to HOME
+cd [dir] -- redirects to dir
+jobs -- shows process history
